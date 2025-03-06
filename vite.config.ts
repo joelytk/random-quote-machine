@@ -4,6 +4,7 @@ import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/random-quote-machine/',
   plugins: [react(), tailwindcss()],
   server: {
     open: true,
