@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
-import type Quote from './types/Quote';
+import type { Quote } from './types';
 
 const fadeVariants = {
   hidden: { opacity: 0 },
