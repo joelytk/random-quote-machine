@@ -67,7 +67,7 @@ const App = () => {
           </>
         ) : error ? (
           <p className='text-2xl text-center'>
-            There was an error loading the quotes. Please try again
+            There was an error loading the quotes. Please try again.
           </p>
         ) : (
           <AnimatePresence key={randomQuote.quote}>
